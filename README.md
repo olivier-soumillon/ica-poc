@@ -6,6 +6,11 @@ JQuery and socket.io .
 FYI: Comments and explaination below are in french for now for the sake of simplicity, as this POC is addressed to french speaking audiance.
 (english version could follow later)
 
+## Live demo
+http://ica-poc.herokuapp.com/back-office
+http://ica-poc.herokuapp.com/screen
+
+
 ## Environement requis
 - Développé sous node 12.18.2
 

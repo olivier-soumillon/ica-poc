@@ -15,7 +15,7 @@ FYI: Comments and explaination below are in french for now for the sake of simpl
 3) Exécutez la commande ```npm install```
 4) Exécutez la commande ```node server.js```
 5) Avec votre browser, rendez-vous à l'url ```http://localhost:8080/back-office```
-6) Avec votre browser, rendez-vous à l'url ```http://localhost:8080/client```
+6) Avec votre browser, rendez-vous à l'url ```http://localhost:8080/screen```
 
 ## Fonctionnement
 

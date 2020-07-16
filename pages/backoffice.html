@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ICA: back office page</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container-sm">
+        <h1 class="mb-4 mt-4">Back office page</h1>
+        <form id="form_absence">
+            <div class="form-group">
+                <label for="name">Nom de la personne absente</label>
+                <input type="text" class="form-control" id="name" name="name" placeholder="Exemple: Olivier">
+            </div>
+            <button type="submit" class="btn btn-primary" onclick="handleFormSubmit('form_absence')">Valider</button>
+        </form>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/1.4.5/socket.io.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
+    <script src="/public/backoffice.js"></script>
+</body>
+</html>

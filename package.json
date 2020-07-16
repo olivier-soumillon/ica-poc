@@ -1,0 +1,15 @@
+{
+  "name": "ica",
+  "version": "1.0.0",
+  "description": "P.O.C. realtime communication for icalibramont",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Olivier Soumillon <olivier.soumillon@gmail.com>",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  }
+}

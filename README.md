@@ -7,8 +7,8 @@ FYI: Comments and explaination below are in french for now for the sake of simpl
 (english version could follow later)
 
 ## Live demo
-http://ica-poc.herokuapp.com/back-office
-http://ica-poc.herokuapp.com/screen
+- http://ica-poc.herokuapp.com/back-office
+- http://ica-poc.herokuapp.com/screen
 
 
 ## Environement requis

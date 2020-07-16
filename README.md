@@ -14,7 +14,7 @@ FYI: Comments and explaination below are in french for now for the sake of simpl
 2) Ouvrez un terminal à la racine du repository
 3) Exécutez la commande ```npm install```
 4) Exécutez la commande ```node server.js```
-5) Le message `Server listening on port 8080 ;)```` devrait apparaître dans le terminal
+5) Le message `Server listening on port 8080 ;)` devrait apparaître dans le terminal
 6) Avec votre browser, rendez-vous à l'url ```http://localhost:8080/back-office```
 7) Avec votre browser, rendez-vous à l'url ```http://localhost:8080/screen```
 

@@ -5,6 +5,8 @@ NOTE: on utilise le framework express js pour construire le serveur
 const express = require('express')
 const path = require('path')
 const http = require('http')
+// NOTE:  Pour faire tourner le serveur en HTTPS:
+//const https = require('https')
 
 const app = express()
 
@@ -32,6 +34,17 @@ app.get('/screen', function (req, res) {
 
 // NOTE: creation du serveur HTTP, en lui indiquant d'utiliser l'app express
 const server = http.createServer(app)
+
+/*
+// NOTE: Pour faire tourner le serveur en HTTPS:
+
+const secureOptions = {
+    key: './path/to/key/file.key',
+    cert: './path/to/crt/file.crt'
+}
+
+https.createServer(secureOptions, app)
+*/
 
 // NOTE: creation du socket server grâce à socket.io, on le lie au serveur HTTP
 const serverSocket = require('socket.io')(server)
